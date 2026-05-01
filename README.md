@@ -25,23 +25,29 @@ The dataset contains information about Netflix Movies and TV Shows, including:
 1.Content Analysis:-
 * Counted number of Movies vs TV Shows.
 * Identified the most common rating for each type.
+  
 2.Filtering & Conditions:-
 * Retrieved movies released in a specific year (e.g., 2020).
 * Found all content by a specific director.
 * Listed TV shows with more than 5 seasons.
+  
 3.Data Transformation:-
 * Split columns with multiple values (country, genres, cast).
 * Used functions like `STRING_TO_ARRAY`, `UNNEST`, and `TRIM`.
+  
 4.Aggregation & Insights:-
 * Top 5 countries with the most content.
 * Genre-wise content distribution.
 * Top 10 actors in Indian content.
+  
 5.Date-Based Analysis:-
 * Content added in the last 5 years.
 * Year-wise trend of content from India.
+  
 6.Data Cleaning:-
 * Handled NULL and missing values (e.g., missing directors).
 * Converted text data into usable formats (dates, numbers).
+  
 7.Categorized Contents into two categories:-
 * Categorized content into Good_Content and Bad_Content.
 * Used `CASE` statements with keyword-based filtering on descriptions.
